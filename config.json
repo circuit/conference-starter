@@ -13,5 +13,6 @@
   },
   "webserver": {
     "port": 1337
-  }
+  },
+  "system": "sandbox"
 }

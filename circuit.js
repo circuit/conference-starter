@@ -5,7 +5,7 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 
 const config = require('./config_override.json') || require('./config.json');
-const credentials = config.credentials[process.env.CIRCUIT_SYSTEM || 'sandbox'];
+const credentials = config.credentials[process.env.CIRCUIT_SYSTEM || config.system || 'sandbox'];
 const publicCredentials = {
   domain: credentials.domain,
   client_id: credentials.client_id

@@ -7,7 +7,7 @@ const serveStatic = require('serve-static');
 const app = express();
 const config = require('./config_override.json') || require('./config.json');
 const PORT = process.env.PORT || config.webserver.port || 1337;
-const SYSTEM = process.env.CIRCUIT_SYSTEM || 'sandbox';
+const SYSTEM = process.env.CIRCUIT_SYSTEM || config.system || 'sandbox';
 
 app.use(express.static(__dirname + '/vue-app'));
 app.use(bodyParser.json());
