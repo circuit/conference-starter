@@ -9,7 +9,7 @@
   "scripts": {
     "debug": "node --nolazy --inspect-brk=9229 server.js",
     "start": "node server.js",
-    "postinstall": "cd vue-app && npm install"
+    "postinstall": "cd vue-app && npm install && npm run build"
   },
   "keywords": [],
   "author": "Roger Urscheler <roger.urscheler@unify.com>",
