@@ -1,11 +1,10 @@
 {
   "name": "conference-starter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Bot that starts a conference and dials out members on a scheduled time",
   "main": "server.js",
   "engines": {
-    "node": "8.8.1",
-    "npm": "3.10.8"
+    "node": ">8.8.1"
   },
   "scripts": {
     "debug": "node --nolazy --inspect-brk=9229 server.js",

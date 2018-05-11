@@ -27,6 +27,7 @@ async function init() {
     args: [
       '--auto-open-devtools-for-tabs',
       '--no-sandbox',
+      '--disable-setuid-sandbox',
       '--use-fake-ui-for-media-stream',
       '--mute-audio',
       '--use-fake-device-for-media-stream',

@@ -4,3 +4,8 @@ node_modules
 config_override.json
 npm-debug.log
 yarn-error.log
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
