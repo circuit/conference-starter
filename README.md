@@ -15,8 +15,8 @@ Consists of:
 Edit `config.json` with `domain`, `client_id` and `client_secret` for your system. Environment variable `SYSTEM` will determine which config to use. If a `config_override.json` is define it is used instead.
 
 Webserver port is taken from `PORT` environment variable, and if not defined from `config.json`.
-``` bash
-# config.json
+``` json
+// config.json
 {
   "credentials": {
     "sandbox": {
@@ -32,7 +32,8 @@ Webserver port is taken from `PORT` environment variable, and if not defined fro
   },
   "webserver": {
     "port": 1337
-  }
+  },
+  "system": "sandbox"
 }
 
 ```
