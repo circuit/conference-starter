@@ -23,12 +23,12 @@ Webserver port is taken from `PORT` environment variable, and if not defined fro
       "domain": "circuitsandbox.net",
       "client_id": "<client_id>",
       "client_secret": "<client_secret>"
-	  },
+    },
     "eu": {
       "domain": "eu.yourcircuit.com",
       "client_id": "<client_id>",
       "client_secret": "<client_secret>"
-	  }
+    }
   },
   "webserver": {
     "port": 1337
