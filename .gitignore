@@ -1,0 +1,6 @@
+.vscode
+Default
+node_modules
+config_override.json
+npm-debug.log
+yarn-error.log
