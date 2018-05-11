@@ -41,14 +41,11 @@ Webserver port is taken from `PORT` environment variable, and if not defined fro
 ## Build Setup
 
 ``` bash
-# install dependencies
+# install dependencies and build/run webapp in production
 npm install
+npm start
 
 # serve with hot reload at localhost:8080 for development of web app
 cd vue-app
 npm run dev
-
-# build web app for production with minification
-cd vue-app
-npm run build
 ```
