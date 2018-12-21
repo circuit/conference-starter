@@ -4,7 +4,11 @@ const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
 
-const config = require('./config_override.json') || require('./config.json');
+const config = require('./config.json');
+try {
+  config = require('./config_override.json');
+} catch (e) {}
+
 const credentials = config.credentials[process.env.CIRCUIT_SYSTEM || config.system || 'sandbox'];
 const publicCredentials = {
   domain: credentials.domain,

@@ -10,9 +10,11 @@ Consists of:
 - Scheduler. Uses <a href="https://www.npmjs.com/package/node-schedule">node-schedule</a>.
 - Circuit SDK bot module that starts conference at given time and dials out members. Uses <a href="https://github.com/GoogleChrome/puppeteer">puppeteer</a> to control headless chrome instances so that JS SDK with WebRTC can be used.
 
+Live on gcloud App Engine at https://conference-starter.appspot.com/
+
 ## Configuration
 
-Edit `config.json` with `domain`, `client_id` and `client_secret` for your system. Environment variable `SYSTEM` will determine which config to use. If a `config_override.json` is define it is used instead.
+Edit `config.json` with `domain`, `client_id` and `client_secret` for your system. Environment variable `SYSTEM` will determine which config to use.
 
 Webserver port is taken from `PORT` environment variable, and if not defined from `config.json`.
 ``` json
@@ -49,3 +51,4 @@ npm start
 cd vue-app
 npm run dev
 ```
+

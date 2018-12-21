@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const serveStatic = require('serve-static');
 const app = express();
-const config = require('./config_override.json') || require('./config.json');
-const PORT = process.env.PORT || config.webserver.port || 1337;
+const config = require('./config.json');
+const PORT = process.env.PORT || config.webserver.port || 3000;
 const SYSTEM = process.env.CIRCUIT_SYSTEM || config.system || 'sandbox';
 
 app.use(express.static(__dirname + '/vue-app'));
