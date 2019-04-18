@@ -10,7 +10,7 @@ Consists of:
 - Scheduler. Uses <a href="https://www.npmjs.com/package/node-schedule">node-schedule</a>.
 - Circuit SDK bot module that starts conference at given time and dials out members. Uses <a href="https://github.com/GoogleChrome/puppeteer">puppeteer</a> to control headless chrome instances so that JS SDK with WebRTC can be used.
 
-Live on gcloud App Engine at https://conference-starter.appspot.com/
+Live on gcloud App Engine at https://conference-starter-dot-atos-ucc-circuit-cpaas.appspot.com/
 
 ## Configuration
 
