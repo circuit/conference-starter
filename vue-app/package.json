@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.14.3",
     "vue": "^2.5.11",
     "vue2-datepicker": "^1.9.7"
